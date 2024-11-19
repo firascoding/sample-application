@@ -1,0 +1,4 @@
+org.springframework.test.context.ContextCustomizerFactory = io.basira.myapp.\
+    config.SqlTestContainersSpringContextCustomizerFactory,io.basira.myapp.\
+    config.TestContainersSpringContextCustomizerFactory,io.basira.myapp.config.\
+    KafkaTestContainersSpringContextCustomizerFactory
